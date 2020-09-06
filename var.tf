@@ -12,11 +12,3 @@ variable "mysql_password" {
     type = string
     description = "Please input mysql password"
 }
-
-
-
-
-# variable "mysql_db_host" {
-#     type = string
-#     description = "Please input db host"
-# }
