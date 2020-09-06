@@ -12,9 +12,5 @@ resource "aws_db_instance" "DataBase" {
   publicly_accessible = true
   skip_final_snapshot = true 
 
-provisioner "local-exec" {
-  command = "echo ${aws_db_instance.DataBase.endpoint} > DB_host.txt"
-    }
-
 }
 
