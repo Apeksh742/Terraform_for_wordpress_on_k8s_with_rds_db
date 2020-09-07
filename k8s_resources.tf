@@ -109,6 +109,6 @@ resource "kubernetes_service" "k8s_service" {
       target_port = 80
     }
 
-    type = "LoadBalancer"
+    type = "NodePort"
   }
 }
